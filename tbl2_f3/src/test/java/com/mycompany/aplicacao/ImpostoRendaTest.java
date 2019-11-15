@@ -12,4 +12,11 @@ class ImpostoRendaTest {
 		assertEquals(3.14F, aplicacao.getImpostoRenda());
 	}
 
+	@Test
+	void anotherTest() {
+		Aplicacao aplicacao = new Aplicacao(120, 500.00F, 8.0F);
+
+		assertEquals(2.96F, aplicacao.getImpostoRenda());
+	}
+
 }

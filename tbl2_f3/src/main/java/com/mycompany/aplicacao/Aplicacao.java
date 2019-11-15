@@ -10,7 +10,9 @@ public class Aplicacao
     private float juros;
 
 	public Aplicacao(int dias, float aplicacaoInicial, float juros) {
-
+        this.dias = dias;
+        this.aplicacaoInicial = aplicacaoInicial;
+        this.juros = juros;
 	}
 
 	public float getRendimentoBruto() {

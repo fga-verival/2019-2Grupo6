@@ -13,4 +13,11 @@ class RendimentoBrutoTest {
 		assertEquals(13.97F, aplicacao.getRendimentoBruto());
 	}
 
+	@Test
+	void anotherTest() {
+		Aplicacao aplicacao = new Aplicacao(120, 500.00F, 8.0F);
+
+		assertEquals(13.15F, aplicacao.getRendimentoBruto());
+	}
+
 }
