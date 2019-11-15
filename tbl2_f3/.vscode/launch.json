@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - aplicacao",
+            "request": "launch",
+            "mainClass": "com.mycompany.aplicacao.Aplicacao",
+            "projectName": "tbl2-f3"
+        }
+    ]
+}
