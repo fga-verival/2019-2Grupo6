@@ -10,13 +10,13 @@ class RendimentoLiquidoTest {
 	void test() {
 		Aplicacao aplicacao = new Aplicacao(60, 1000.00F, 8.5F);
 
-		assertEquals(1.0829F, aplicacao.getRendimentoLiquido());
+		assertEquals(1.0829F, aplicacao.getRendimentoLiquido(), 0.01F);
 	}
 
 	@Test
 	void anotherTest() {
 		Aplicacao aplicacao = new Aplicacao(120, 500.00F, 8.0F);
 
-		assertEquals(2.034F, aplicacao.getRendimentoLiquido());
+		assertEquals(2.034F, aplicacao.getRendimentoLiquido(), 0.01F);
 	}
 }
